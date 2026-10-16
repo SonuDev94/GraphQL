@@ -1,0 +1,17 @@
+query ContinentFetching{
+    continents{
+        name,
+        code,
+#        countries {
+#            name
+#        }
+    }
+
+#  continent(code: $mCode){
+#      countries {
+#          name,
+#          emoji
+#      }
+#  }
+}
+
